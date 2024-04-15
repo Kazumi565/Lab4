@@ -1,0 +1,42 @@
+body {
+    background-color: var(--weak-dark);
+    color: white;
+}
+
+#vertical_navbar {
+    background-color: var(--strong-dark);
+}
+
+.nav_button {
+    background-color: #eee;
+    color: #222;
+}
+
+#navThemeButton {
+    background-color: var(--strong-light);
+    color: #222;
+}
+
+#dataTable thead {
+    color: white;
+    background-color: var(--strong-dark);
+}
+
+.message_wrap,
+#tableWrap {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+#tableSelector {
+    background-color: var(--strong-dark);
+    color: white;
+}
+
+.nav_button:hover,
+.nav_button.active:hover {
+    background-color: #8686b8;
+}
+
+.nav_button.active {
+    background-color: #9797b8;
+}

@@ -1,0 +1,73 @@
+:root {
+    --strong-dark: #444;
+    --weak-dark: #55555f;
+    --strong-light: #f5d0c1;
+    --weak-light: #f0eaea;
+  }
+
+body {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#contentWrap {
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(5cm + 15%);
+}
+
+#contentWrap>* {
+    width: 100%;
+    height: 1cm;
+    margin: 0.3cm 0 0.3cm 0;
+    box-sizing: border-box;  
+}
+
+#contentWrap input,
+#contentWrap button{
+    border-radius: 0.2cm;
+}
+
+input {
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 0.2cm;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.show-password-checkbox {
+    position: absolute;
+    top: 50%;
+    right: 0.2cm;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+    height: 0.4cm;
+    width: 0.4cm;
+}
+
+#errorField {
+    height: auto;
+    color: red;
+    text-align: center;
+}
+
+#RedirectToLogin, #guestButton{
+   background-color: var(--strong-light);
+   color: black;
+}
+
+button{
+    border: 0;
+    background-color: var(--strong-dark);
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}

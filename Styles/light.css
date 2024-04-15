@@ -1,0 +1,41 @@
+body {
+    background-color: var(--weak-light);
+}
+
+#vertical_navbar {
+    background-color: var(--strong-light);
+}
+
+.nav_button {
+    background-color: #eee;
+    color: black;
+}
+
+#navThemeButton {
+    background-color: var(--strong-dark);
+    color: white;
+}
+
+#dataTable thead {
+    color: #222;
+    background-color: var(--strong-light);
+}
+
+.message_wrap,
+#tableWrap {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#tableSelector {
+    background-color: var(--strong-light);
+    color: #222;
+}
+
+.nav_button:hover,
+.nav_button.active:hover {
+    background-color: #f1b6b6;
+}
+
+.nav_button.active {
+    background-color: #dca5a5;
+}
